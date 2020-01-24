@@ -2,67 +2,52 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-// import Lightbox from 'react-images'
-import Gallery from '../components/Gallery'
+// import Gallery from '../components/Gallery'
 
-import thumb01 from '../assets/images/thumbs/01.jpg'
-import thumb02 from '../assets/images/thumbs/02.jpg'
-import thumb03 from '../assets/images/thumbs/03.jpg'
-import thumb04 from '../assets/images/thumbs/04.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
-
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
-
-const DEFAULT_IMAGES = [
-  {
-    id: '1',
-    source: full01,
-    thumbnail: thumb01,
-    caption: 'Photo 1',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '2',
-    source: full02,
-    thumbnail: thumb02,
-    caption: 'Photo 2',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '3',
-    source: full03,
-    thumbnail: thumb03,
-    caption: 'Photo 3',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '4',
-    source: full04,
-    thumbnail: thumb04,
-    caption: 'Photo 4',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '5',
-    source: full05,
-    thumbnail: thumb05,
-    caption: 'Photo 5',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '6',
-    source: full06,
-    thumbnail: thumb06,
-    caption: 'Photo 6',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-]
+// const DEFAULT_IMAGES = [
+//   {
+//     id: '1',
+//     source: full01,
+//     thumbnail: thumb01,
+//     caption: 'Photo 1',
+//     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+//   },
+//   {
+//     id: '2',
+//     source: full02,
+//     thumbnail: thumb02,
+//     caption: 'Photo 2',
+//     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+//   },
+//   {
+//     id: '3',
+//     source: full03,
+//     thumbnail: thumb03,
+//     caption: 'Photo 3',
+//     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+//   },
+//   {
+//     id: '4',
+//     source: full04,
+//     thumbnail: thumb04,
+//     caption: 'Photo 4',
+//     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+//   },
+//   {
+//     id: '5',
+//     source: full05,
+//     thumbnail: thumb05,
+//     caption: 'Photo 5',
+//     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+//   },
+//   {
+//     id: '6',
+//     source: full06,
+//     thumbnail: thumb06,
+//     caption: 'Photo 6',
+//     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+//   },
+// ]
 
 class HomeIndex extends React.Component {
   render() {
@@ -79,53 +64,50 @@ class HomeIndex extends React.Component {
         <div id="main">
           <section id="one">
             <header className="major">
-              <h2>
-                Ipsum lorem dolor aliquam ante commodo
-                <br />
-                magna sed accumsan arcu neque.
-              </h2>
+              <h2>About Me</h2>
             </header>
             <p>
-              Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-              nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-              lobortis tortor primis integer massa adipiscing id nisi accumsan
-              pellentesque commodo blandit enim arcu non at amet id arcu magna.
-              Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-              vulputate lorem neque cubilia.
+              My name is Kevin Lin. Since February 2020, I have been a
+              Seattle-based Software Engineer on the [to be determined] team at{' '}
+              <a target="_blank" href="https://www.tableau.com/">
+                Tableau Software
+              </a>
+              . I'm interested in full-stack development, database systems, and
+              systems programming. I received a Bachelor of Science in Computer
+              Science from{' '}
+              <a target="_blank" href="https://csweb.rice.edu/">
+                Rice University
+              </a>{' '}
+              in December 2019.
             </p>
-            <ul className="actions">
+            <p>
+              During my time at Rice, I completed a specialization in Software
+              Engineering, which included graduate and undergraduate coursework
+              in Database System Implementation, Algorithmic Robotics, Database
+              Systems, Distributed Systems, Web Development, Data Science, and
+              more. In my spare time, I loved to work on{' '}
+              <a target="_blank" href="https://github.com/klin1344">
+                personal projects
+              </a>{' '}
+              and participate in{' '}
+              <a target="_blank" href="https://devpost.com/klin1344">
+                hackathons
+              </a>
+              . I have academic and professional experience with languages and
+              technologies across the stack: C, C++, Java, Python, Javascript,
+              and more.
+            </p>
+            <p>If you'd like to connect, feel free to reach out via email.</p>
+            {/* <ul className="actions">
               <li>
                 <a href="#" className="button">
                   Learn More
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </section>
 
-          <section id="two">
-            <h2>Recent Work</h2>
-
-            <Gallery
-              images={DEFAULT_IMAGES.map(
-                ({ id, source, thumbnail, caption, description }) => ({
-                  source,
-                  thumbnail,
-                  caption,
-                  description,
-                })
-              )}
-            />
-
-            <ul className="actions">
-              <li>
-                <a href="#" className="button">
-                  Full Portfolio
-                </a>
-              </li>
-            </ul>
-          </section>
-
-          <section id="three">
+          {/* <section id="three">
             <h2>Get In Touch</h2>
             <p>
               Accumsan pellentesque commodo blandit enim arcu non at amet id
@@ -195,7 +177,7 @@ class HomeIndex extends React.Component {
                 </ul>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
       </Layout>
     )
