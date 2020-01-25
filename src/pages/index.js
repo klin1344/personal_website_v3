@@ -67,8 +67,9 @@ class HomeIndex extends React.Component {
               <h2>About Me</h2>
             </header>
             <p>
-              My name is Kevin Lin. Since February 2020, I have been a
-              Seattle-based Software Engineer on the [to be determined] team at{' '}
+              Hi! My name is Kevin Lin. Since February 2020, I have been a
+              Software Engineer based out of Seattle and working on the [to be
+              determined] team at{' '}
               <a target="_blank" href="https://www.tableau.com/">
                 Tableau Software
               </a>
@@ -81,11 +82,12 @@ class HomeIndex extends React.Component {
               in December 2019.
             </p>
             <p>
-              During my time at Rice, I completed a specialization in Software
-              Engineering, which included graduate and undergraduate coursework
-              in Database System Implementation, Algorithmic Robotics, Database
-              Systems, Distributed Systems, Web Development, Data Science, and
-              more. In my spare time, I loved to work on{' '}
+              During my time at Rice, as part of my degree I completed a
+              capstone specialization in Software Engineering, which included
+              graduate and undergraduate coursework in Database System
+              Implementation, Algorithmic Robotics, Database Systems,
+              Distributed Systems, Web Development, Data Science, and more. In
+              my spare time, I loved to work on{' '}
               <a target="_blank" href="https://github.com/klin1344">
                 personal projects
               </a>{' '}
