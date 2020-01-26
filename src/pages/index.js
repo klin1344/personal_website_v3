@@ -68,8 +68,9 @@ class HomeIndex extends React.Component {
             </header>
             <p>
               Hi! My name is Kevin Lin. Since February 2020, I have been a
-              Software Engineer based out of Seattle and working on the [to be
-              determined] team at{' '}
+              Software Engineer based out of Seattle and working{' '}
+              {/*on the [to be
+              determined] team*/} at{' '}
               <a target="_blank" href="https://www.tableau.com/">
                 Tableau Software
               </a>
