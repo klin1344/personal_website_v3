@@ -22,10 +22,13 @@ class Header extends React.Component {
             </div>
             <br />
             <div>
+              <a target="_blank" href="https://www.cc.gatech.edu/">
+                Georgia Tech M.S. CS
+              </a>
+              <br />
               <a target="_blank" href="https://csweb.rice.edu/">
-                Rice University CS
-              </a>{' '}
-              c/o 2020
+                Rice University B.S. CS
+              </a>
             </div>
           </h1>
         </div>

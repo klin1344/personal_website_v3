@@ -8,11 +8,6 @@ class Footer extends React.Component {
         <div className="inner">
           <ul className="icons">
             <li>
-              <a target="_blank" href={resume} className="icon fa-file-text-o">
-                <span className="label">Resume</span>
-              </a>
-            </li>
-            <li>
               <a
                 target="_blank"
                 href="https://linkedin.com/in/klin1344"
@@ -28,16 +23,6 @@ class Footer extends React.Component {
                 className="icon fa-github"
               >
                 <span className="label">Github</span>
-              </a>
-            </li>
-
-            <li>
-              <a
-                target="_blank"
-                href="mailto:kyl3@rice.edu"
-                className="icon fa-envelope-o"
-              >
-                <span className="label">Email</span>
               </a>
             </li>
           </ul>

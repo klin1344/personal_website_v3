@@ -73,33 +73,14 @@ class HomeIndex extends React.Component {
               <a target="_blank" href="https://www.tableau.com/">
                 Tableau Software
               </a>
-              . I'm interested in full-stack development, database systems, and
-              systems programming. I received a Bachelor of Science in Computer
-              Science from{' '}
-              <a target="_blank" href="https://csweb.rice.edu/">
-                Rice University
-              </a>{' '}
-              in December 2019.
+              . I'm interested in backend development, database systems, and computer security. I am currently pursuing a
+              Master of Science in Computer Science at the <a target="_blank" href="https://www.cc.gatech.edu/">Georgia Institute of Technology</a> alongside full-time employment.
+              I received a Bachelor of Science in Computer Science from <a target="_blank" href="https://cs.rice.edu/">Rice University</a> in December 2019.
             </p>
-            <p>
-              During my time at Rice, as part of my degree I completed a
-              capstone specialization in Software Engineering, which included
-              graduate and undergraduate coursework in Database System
-              Implementation, Algorithmic Robotics, Database Systems,
-              Distributed Systems, Web Development, Data Science, and more. In
-              my spare time, I loved to work on{' '}
-              <a target="_blank" href="https://github.com/klin1344">
-                personal projects
-              </a>{' '}
-              and participate in{' '}
-              <a target="_blank" href="https://devpost.com/klin1344">
-                hackathons
-              </a>
-              . I have academic and professional experience with languages and
-              technologies across the stack: C, C++, Java, Python, Javascript,
-              and more.
-            </p>
-            <p>If you'd like to connect, feel free to reach out via email.</p>
+            <p>I focus on building products that bring value to customers and help them to understand their data.
+              I have academic and professional experience with languages and technologies across the stack: Java, C++, C, Python, and more.</p>
+
+            <p>If you'd like to connect, feel free to reach out via LinkedIn.</p>
             {/* <ul className="actions">
               <li>
                 <a href="#" className="button">
